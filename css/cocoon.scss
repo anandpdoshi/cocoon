@@ -3,19 +3,6 @@
    margin: 0 !important;
 }
 
-body {
-  /*background-color: #170507;*/
-}
-
-.power-up {
-  /*background-color: #C7C6B7;*/
-  /*color: #170507;*/
-}
-
-.power-down {
-  /*background-color: #170507;*/
-  /*color: white;*/
-}
 
 #contact {
   background-color: white;
@@ -53,5 +40,17 @@ body {
   }
 }
 
+#video {
+  background-color: white;
+}
+
+
+iframe {
+  display: block;
+  margin-right: 0;
+  border: none;
+  height: 80vh;
+  width: 80vw;
+}
 
 
