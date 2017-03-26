@@ -222,6 +222,7 @@ a:focus {
 }
 .content-section {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #video {
@@ -234,15 +235,12 @@ a:focus {
 
 iframe {
   display: block;
-  background: #000;
+  /*background: #000;*/
   border: none;
   height: 100vh;
   width: 100vw;
 }
 
-#team {
-  width:100%;
-}
 
 .btn {
   text-transform: uppercase;
