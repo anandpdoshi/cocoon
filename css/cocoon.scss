@@ -1,0 +1,40 @@
+.subtitle {
+  font-size: 14px;
+}
+
+body {
+  /*background-color: #170507;*/
+}
+
+.power-up {
+  /*background-color: #C7C6B7;*/
+  /*color: #170507;*/
+}
+
+.power-down {
+  /*background-color: #170507;*/
+  /*color: white;*/
+}
+
+.icon {
+  padding: 15px;
+  img {
+    padding-bottom: 20px;
+    width: 80%;
+  }
+}
+
+
+#contact {
+  background-color: red;
+/*  .power-button-on {
+    background-color: green;
+  }*/
+}
+
+#contact.power-button-on {
+    background-color: green;
+}
+
+
+
