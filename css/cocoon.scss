@@ -1,5 +1,6 @@
-.subtitle {
-  font-size: 14px;
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
 
 body {
@@ -16,6 +17,10 @@ body {
   /*color: white;*/
 }
 
+#contact {
+  background-color: white;
+}
+
 .icon {
   padding: 15px;
   img {
@@ -25,15 +30,30 @@ body {
 }
 
 
+.power-down, .power-up {
+  margin-top: 50px;
+}
+
 #contact {
-  background-color: red;
-/*  .power-button-on {
-    background-color: green;
-  }*/
+  background: linear-gradient(90deg, #001631, #003257, #9C938E);
+  /*opacity: 0.8;*/
+  color: white;
+  .toggle-group label {
+    background-color: #9C938E;
+    color: #001631;
+    border: none;
+  }
 }
 
 #contact.power-button-on {
-    background-color: green;
+  background: linear-gradient(90deg, #444D6A, #898383, #EBC99C);
+  color: white;
+  .toggle-group label {
+    background-color: #00001b;
+    opacity: 0.3;
+    color: white;
+    border: none;
+  }
 }
 
 
