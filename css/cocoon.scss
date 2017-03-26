@@ -25,7 +25,7 @@ body {
   padding: 15px;
   img {
     padding-bottom: 20px;
-    width: 80%;
+    width: 60%;
   }
 }
 
@@ -39,10 +39,8 @@ body {
   /*opacity: 0.8;*/
   color: white;
   .toggle-group label {
-    background-color: #9C938E;
-    opacity: 0.4;
+    background-color: rgba(156,147,142, 0.4);
     color: white;
-    border: none;
   }
 }
 
@@ -50,10 +48,8 @@ body {
   background: linear-gradient(90deg, #444D6A, #898383, #EBC99C);
   color: white;
   .toggle-group label {
-    background-color: #00001b;
-    opacity: 0.3;
+    background-color: rgba(0,0,27, 0.4);
     color: white;
-    border: none;
   }
 }
 
