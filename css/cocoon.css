@@ -1,2 +1,288 @@
-.nopadding{padding:0 !important;margin:0 !important}#contact{background-color:white}.icon{padding:15px}.icon img{padding-bottom:20px;width:60%}#about hr{height:4px;color:white;border:none;background-color:white;margin-top:0px}#about img{width:100%}#contact{background-color:black;color:white}#video{background-color:white}.aspect-ratio{position:relative;width:100%;height:0;padding-bottom:56%}.aspect-ratio iframe{position:absolute;width:100%;height:100%;left:0;top:0}#apps{background-color:white;color:black}#apps img{width:60%;margin-top:40px}#team{background-color:white;color:black}#team img{width:100%}.intro{margin-top:140px;color:black}.intro .brand-heading{font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif}.intro img{width:100%;display:block}.navbar{background-color:white}.navbar-custom a{color:black}.navbar-custom .nav li a:hover{color:gray}#about,#contact,#research,footer{background-color:black;color:white}h1,h2{margin-bottom:80px}.brand-heading{margin-bottom:25px}.intro .intro-body .intro-text{margin-bottom:10px}.navbar-custom .nav li.active a{background-color:white}.navbar-custom .nav li.active a:hover{background-color:black}.price-btn{font-size:34px;color:black}.price-btn:hover{color:black}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important
+}
+#contact {
+    background-color: white
+}
+.icon {
+    padding: 15px
+}
+.icon img {
+    padding-bottom: 20px;
+    width: 60%
+}
+#about hr {
+    height: 4px;
+    color: white;
+    border: none;
+    background-color: white;
+    margin-top: 0px
+}
+#about img {
+    width: 100%
+}
+#contact {
+    background-color: black;
+    color: white
+}
+#video {
+    background-color: white
+}
+.aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%
+}
+.aspect-ratio iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+#apps {
+    background-color: white;
+    color: black
+}
+
+#apps img {
+    max-width: 75%;
+}
+
+.app-description {
+    font-size: 18px;
+}
+
+#team {
+    background-color: white;
+    color: black
+}
+
+#team img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#team .lead {
+    margin-top: -30px;
+}
+
+#team .names {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#team .names ul li {
+    margin: 0px 15px;
+    margin-bottom: 30px;
+}
+
+.intro {
+/*    margin-top: 140px;*/
+    color: black;
+/*    min-height: 100%;*/
+    height: 70vw;
+}
+.intro .brand-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.intro img {
+    width: 100%;
+    display: block
+}
+.navbar {
+    background-color: white
+}
+.navbar-custom a {
+    color: black
+}
+.navbar-custom .nav li a:hover {
+    color: gray
+}
+#contact,#research,footer {
+    background-color: black;
+    color: white
+}
+h1,h2 {
+    margin-bottom: 80px
+}
+.brand-heading {
+    margin-bottom: 25px
+}
+.intro .intro-body .intro-text {
+    margin-bottom: 10px
+}
+.navbar-custom .nav li.active a {
+    background-color: white
+}
+.navbar-custom .nav li.active a:hover {
+    background-color: black
+}
+
+.intro {
+    position: relative;
+}
+
+.price-btn {
+    font-size: 34px;
+    color: black;
+    position: absolute;
+    bottom: 15vw;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.price-btn:hover {
+    color: black
+}
 /*# sourceMappingURL=cocoon.css.map */
+
+
+/* all custom stuff done manually - @anandpd */
+.navbar-custom {
+  text-transform: none !important;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 500 !important;
+}
+
+.navbar-toggle {
+    color: #aaa !important;
+    font-size: 14px !important;
+}
+
+.intro-text {
+    margin-top: -24px;
+    color: #aaa;
+    font-size: 24px !important;
+}
+
+.brand-heading {
+    color: #fff;
+}
+
+.intro {
+    background: url("/img/cocoon-bg-2.svg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center top;
+}
+
+@media (min-width: 992px) {
+    .intro {
+/*        background-position: center -80px;*/
+    }
+}
+
+#about .description {
+    font-size: 40px;
+    color: #000;
+    margin-top: -120px;
+}
+
+#about .cocoon-render {
+    max-width: 700px;
+    margin: auto;
+    display: block;
+}
+
+.cocoon-story {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    font-size: 2em;
+}
+
+.power-down img,
+.power-up img {
+    max-width: 80px !important;
+}
+
+.power-down .icon h3,
+.power-up .icon h3 {
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+.power-down .icon p,
+.power-up .icon p {
+    font-size: 16px;
+    color: #bbb;
+}
+
+.key-features-title {
+    margin-bottom: 50px;
+}
+
+.power-down-title,
+.power-up-title {
+    letter-spacing: 0.3rem;
+    border-bottom: 1px solid #aaa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-detailed-description {
+    margin-top: 120px;
+    color: #eee;
+}
+
+.features-detailed-description p {
+    font-size: 18px;
+}
+
+.research-content sup,
+.research-citations {
+    color: #aaa;
+}
+
+
+
+@media (max-width: 767px) {
+    .intro {
+/*        background-position: center -30px;*/
+    }
+
+    #about .description {
+        font-size: 26px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -120px;
+    }
+
+    #team .names {
+        font-size: 14px;
+    }
+
+    #apps .app-text {
+        margin-top: 60px;
+    }
+
+    .price-btn {
+        font-size: 14px;
+        bottom: 12vw;
+    }
+
+}
+
+@media (min-width: 991px) {
+    .intro {
+        background-position: center -70px;
+    }
+}
