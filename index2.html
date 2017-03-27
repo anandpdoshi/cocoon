@@ -20,6 +20,15 @@
   crossorigin="anonymous"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
+    <!-- Multiplescroll js-->
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.multiscroll.css" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="vendor/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.multiscroll.js"></script>
+
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -29,6 +38,19 @@
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/cocoon.css" rel="stylesheet">
 
+    <script type="text/javascript">
+     $(document).ready(function() {
+            $('#scroll-section').multiscroll({
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#1bbc9b'],
+                anchors: ['first', 'second', 'third', 'four'],
+                menu: '#menu',
+                navigation: true,
+                navigationTooltips: ['One', 'Two', 'Three', 'Four'],
+                loopBottom: false,
+                loopTop: false
+            });
+        });
+    </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -55,9 +77,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Features</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#research">Research</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Contact</a>
@@ -87,51 +106,102 @@
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section">
-          <div class='text-center'>
-            <h2>A relaxation aid for the busy traveler</h2>
-          </div>
-
-          <div class='row'>
-            <div class="col-md-6">
-              <img src="img/2.jpg">
-            </div>
-            <div class="col-md-6">
-            <hr>
-            <h3>ESCAPE DISTRACTION, RECHARGE IN STYLE AND COMFORT, WAKE UP ENGERGIZED</h3>
-            <p>We get it. Travel is stressful. When you’re zipping from point A to B, you do not want to be distracted by the realities of your noisy environment. Busy travelers deserve to feel energized and refreshed once they reach their destination. And they want to look good while doing so. That’s why we created the Cocoon.
-            </p>
-            </div>
-          </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="video" class="container-fluid content-section text-center">
-        <div class='row'>
-             <div class="col-md-10 col-md-offset-1">
-                <iframe src="https://player.vimeo.com/video/210143623" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-        </div>
-
-    </section>
 
 
     <!-- Contact Section -->
-    <section id="contact" class="container-fluid content-section text-center">
-        <div class='row'>
-          <h1>Key Features</h1>
 
-        <!--   <input type="checkbox" checked data-toggle="toggle" data-on='power down' data-off='power up' data-width="60%" data-height='60px'> -->
+<div id='scroll-section'>
+    <div class="ms-left">
+        <div class="ms-section" id="left1">
+              <img src="img/2.jpg">
+        </div>
 
-
-            <div class='col-md-6 power-down'>
-              <h3>POWER DOWN</h3>
-              <div class='col-md-4 icon'>
+        <div class="ms-section" id="left2">
+            <h3>POWER DOWN</h3>
+                <div class='col-md-4 icon'>
                 <img src="img/bulb.png">
                 <h3>Blockout</br> Fabric</h3>
                 <p>Eliminate sleep interrupting light to promote droziness.</p>
               </div>
+
+              <div class='col-md-4 icon'>
+                <img src="img/music.png">
+                <h3>Audio</br> Capabilities</h3>
+                <p>Relax to the soothing sounds of music or meditation tracks.</p>
+              </div>
+              <div class='col-md-4 icon'>
+                <img src="img/noise.png">
+                <h3>Noise</br> Isolation</h3>
+                <p>Remove yourself from the hustle and bustle of your environment.</p>
+              </div>
+        </div>
+
+        <div class="ms-section" id="left3">
+            <h2 class='text-center'>Our Research</h2>
+                <h3>Dawn simulation is an active area of research and shows many benefits for improving quality of life</h3>
+
+                <p>Dawn Simulation has proven benefits for reducing the impact of seasonal affective disorder [1]
+                Studies [2] have shown that dawn simulation may be beneficial for people with changes in circardian rhythm or disorders. Dawn simulation may also protect against early morning adverse cardiovascular events[3].</p>
+
+
+                <p>1. Danilenko KV, Ivanova IA. Dawn simulation vs. bright light in seasonal affective disorder: Treatment effects and subjective preference. J Affect Disord. 2015;180:87-89.</br>
+
+                2. Leppamaki S, Meesters Y, Haukka J, et al. Effect of simulated dawn on quality of sleep—a community-based trial. BMC Psychiatry. 2003;3:14.</p>
+
+                <p>3. Viola AU, Gabel V, Chellappa SL, et al. Dawn simulation light: a potential cardiac events protector. Sleep Med. 2015;16:457-461.</p>
+        </div>
+        <div class="ms-section" id="left4">
+            <h2 class='text-center'>Our Team</h2>
+        </div>
+    </div>
+
+    <div class="ms-right">
+        <div class="ms-section" id="right1">
+            <p>We get it. Travel is stressful. When you’re zipping from point A to B, you do not want to be distracted by the realities of your noisy environment. Busy travelers deserve to feel energized and refreshed once they reach their destination. And they want to look good while doing so. That’s why we created the Cocoon.
+            </p>
+              <p>Escape distractions</p>
+              <p> Recharge in style and comfort </p>
+              <p>Wake up energized</p>
+        </div>
+
+        <div class="ms-section" id="right2">
+            <h3>POWER UP</h3>
+              <div class='col-md-4 col-md-offset-2 icon'>
+                <img src="img/dawn.png">
+                <h3>Dawn </br>Imitation</h3>
+                <p>Wake up gently to light simulation that imitates the sunrise.</p>
+              </div>
+              <div class='col-md-4 icon'>
+                <img src="img/vibration.png">
+                <h3>Vibration </br> Wake-Up</h3>
+                <p>Rest assured knowing cocoon will keep you on schedule.</p>
+              </div>
+        </div>
+
+        <div class="ms-section" id="right3">
+            <iframe src="https://player.vimeo.com/video/210143623" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div class="ms-section" id="left4">
+            <img src="img/team.png">
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+    <section id="contact" class="container-fluid content-section text-center">
+        <div class='row'>
+          <h1>Key Features</h1>
+
+          <input type="checkbox" checked data-toggle="toggle" data-on='power down' data-off='power up' data-width="60%" data-height='60px'>
+
+
+            <div class='col-md-6 power-down'>
+              <h3>POWER DOWN</h3>
+
               <div class='col-md-4 icon'>
                 <img src="img/music.png">
                 <h3>Audio</br> Capabilities</h3>
@@ -159,50 +229,6 @@
           </div>
     </section>
 
-     <section id='apps' class="container-fluid content-section ">
-        <h2 class='text-center'>All managed through one app</h2>
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <img src="img/apps.png">
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section id='research' class="container content-section ">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <h2 class='text-center'>Our Research</h2>
-                <h3>Dawn simulation is an active area of research and shows many benefits for improving quality of life.</h3>
-
-                <p>Dawn Simulation has proven benefits for reducing the impact of seasonal affective disorder[1]
-Studies [2] have shown that dawn simulation may be beneficial for people with changes in circardian rhythm or disorders. Dawn simulation may also protect against early morning adverse cardiovascular events[3].</p>
-
-<small>
-    1. Danilenko KV, Ivanova IA. Dawn simulation vs. bright light in seasonal affective disorder: Treatment effects and subjective preference. J Affect Disord. 2015;180:87-89.</br>
-
-    2. Leppamaki S, Meesters Y, Haukka J, et al. Effect of simulated dawn on quality of sleep—a community-based trial. BMC Psychiatry. 2003;3:14. </br>
-
-    3. Viola AU, Gabel V, Chellappa SL, et al. Dawn simulation light: a potential cardiac events protector. Sleep Med. 2015;16:457-461.
-</small>
-
-            </div>
-        </div>
-    </section>
-
-     <section id="team" class="container-fluid content-section">
-        <h2 class='text-center'>Our Team</h2>
-
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <img src="img/team.png">
-                <p>Shuang, Sam, Allie, Adi, Meghan, Rohan, Anand (left to right)</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer>
         <div class="container text-center">
@@ -211,14 +237,19 @@ Studies [2] have shown that dawn simulation may be beneficial for people with ch
         </div>
     </footer>
 
-
+    <!-- jQuery
     <script src="vendor/jquery/jquery.js"></script>
+    -->
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-
+    <!-- Plugin JavaScript
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    -->
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>

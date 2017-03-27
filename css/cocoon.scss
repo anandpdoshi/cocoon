@@ -16,29 +16,42 @@
   }
 }
 
-
-.power-down, .power-up {
-  margin-top: 50px;
+#about {
+  hr {
+    height: 4px;
+    color: white;
+    border: none;
+    background-color: white;
+  }
 }
 
 #contact {
-  background: linear-gradient(90deg, #01081A, #1C3957, #80757D);
-  /*opacity: 0.8;*/
+  background-color: black;
   color: white;
-  .toggle-group label {
-    background-color: rgba(156,147,142, 0.4);
-    color: white;
-  }
 }
 
-#contact.power-button-on {
-  background: linear-gradient(90deg, #444D6A, #898383, #EBC99C);
-  color: white;
-  .toggle-group label {
-    background-color: rgba(0,0,27, 0.4);
-    color: white;
-  }
-}
+// .power-down, .power-up {
+//   margin-top: 50px;
+// }
+
+// #contact {
+//   background: linear-gradient(90deg, #01081A, #1C3957, #80757D);
+//   /*opacity: 0.8;*/
+//   color: white;
+//   .toggle-group label {
+//     background-color: rgba(156,147,142, 0.4);
+//     color: white;
+//   }
+// }
+
+// #contact.power-button-on {
+//   background: linear-gradient(90deg, #444D6A, #898383, #EBC99C);
+//   color: white;
+//   .toggle-group label {
+//     background-color: rgba(0,0,27, 0.4);
+//     color: white;
+//   }
+// }
 
 #video {
   background-color: white;
@@ -53,4 +66,25 @@ iframe {
   width: 80vw;
 }
 
+#apps {
+  background-color: white;
+  color: black;
+  img {
+    width: 60%;
+    margin-top: 40px;
+  }
+}
 
+#team {
+  background-color: white;
+  color: black;
+}
+
+
+.intro{
+  color: black;
+}
+
+.navbar-custom a {
+  color: black;
+}
