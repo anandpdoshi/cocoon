@@ -180,7 +180,7 @@ h1,h2 {
 }
 
 .intro {
-    background: url("/img/cocoon-bg-2.svg");
+    background-image: url(../img/cocoon-bg-2.svg);
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center top;
