@@ -103,8 +103,13 @@ body {
     background-color: white
 }
 .navbar-custom a {
-    color: black
+    color: black;
 }
+
+.top-nav-collapse a {
+    color: white;
+}
+
 .navbar-custom .nav li a:hover {
     color: gray
 }
@@ -289,7 +294,7 @@ h1,h2 {
 }
 
 /*final fix menu*/
-.navbar-custom .nav li a{
+/*.navbar-custom .nav li a{
     color: white;
 }
 
@@ -297,3 +302,4 @@ h1,h2 {
     background-color: white;
     color: black;
 }
+*/
