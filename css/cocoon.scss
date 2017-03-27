@@ -102,13 +102,62 @@
 
 
 .intro{
+  margin-top: 100px;
   color: black;
+  .brand-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
 }
 
+.navbar {
+  background-color: white;
+}
 .navbar-custom a {
   color: black;
 }
 
+.navbar-custom .nav li a:hover{
+  color: gray;
+}
 
+#about, #contact, #research, footer {
+  background-color: black;
+  color: white;
+}
+
+h1, h2 {
+  margin-bottom: 80px;
+}
+
+.brand-heading {
+  margin-bottom: 25px;
+}
+
+.intro .intro-body .intro-text {
+  margin-bottom: 10px;
+}
+
+.navbar-custom .nav li.active a {
+  background-color: white;
+}
+
+.navbar-custom .nav li.active a:hover {
+  background-color: black;
+}
+
+.price-btn {
+  font-size: 34px;
+  border: 3px solid black;
+  color: black;
+  padding: 5px 40px;
+}
+
+.price-btn:hover {
+  color: black;
+}
 
 
