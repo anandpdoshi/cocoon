@@ -100,7 +100,7 @@ body {
     display: block
 }
 .navbar {
-    background-color: white
+    background-color: white;
 }
 .navbar-custom a {
     color: black;
@@ -111,11 +111,11 @@ body {
 }
 
 .navbar-custom .nav li a:hover {
-    color: gray
+    color: gray;
 }
 #contact,#research,footer {
     background-color: black;
-    color: white
+    color: white;
 }
 h1,h2 {
     margin-bottom: 80px
