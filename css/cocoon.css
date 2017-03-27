@@ -135,15 +135,17 @@ h1,h2 {
 .price-btn {
     font-size: 34px;
     color: black;
-    position: absolute;
-    bottom: 15vw;
+    /*position: absolute;*/
+    /*bottom: 15vw;*/
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
 }
-.price-btn:hover {
-    color: black
+
+.price {
+    margin-top: 30px;
 }
+
 /*# sourceMappingURL=cocoon.css.map */
 
 
@@ -201,7 +203,7 @@ h1,h2 {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
+    margin-top: 40px;
     font-size: 2em;
 }
 
@@ -252,7 +254,6 @@ h1,h2 {
 }
 
 
-
 @media (max-width: 767px) {
     .intro {
 /*        background-position: center -30px;*/
@@ -285,4 +286,14 @@ h1,h2 {
     .intro {
         background-position: center -70px;
     }
+}
+
+/*final fix menu*/
+.navbar-custom .nav li a{
+    color: white;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: white;
+    color: black;
 }
